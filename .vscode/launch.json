@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binarysorter",
+            "request": "launch",
+            "mainClass": "binarysorter",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "javaopp",
             "request": "launch",
             "mainClass": "oop.javaopp",

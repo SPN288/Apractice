@@ -13,11 +13,11 @@ public class anagramStrings {
         String st2=s2.toLowerCase();
 
         HashMap<Character,Character> stcheck=new HashMap<>();
-
-        for (int i = 0; i < st1.length(); i++) {
+        for (int i = 0; i < s1.length(); i++) {
+            
             stcheck.put(st1.charAt(i), st1.charAt(i));
         }
-        for (int i = 0; i < st2.length(); i++) {
+        for (int i = 0; i < s2.length(); i++) {
             if(!stcheck.containsValue(st2.charAt(i))){
                 return "no";
             }

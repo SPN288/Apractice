@@ -29,5 +29,7 @@ public class anagramStrings {
     }
     public static void main(String[] args) {
         System.out.println(checkanagram("Listen","Silent"));
+        
+        System.out.println(checkanagram("Li","Si"));
     }
 }

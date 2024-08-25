@@ -10,6 +10,6 @@ public class prime {
         return true;
     }
     public static void main(String[] args) {
-        System.out.println(isPrime(12));
+        System.out.println(isPrime(23));
     }
 }

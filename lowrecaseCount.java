@@ -1,4 +1,4 @@
-public class test {
+public class lowrecaseCount {
 
     static String st(String s){
         String ans="";

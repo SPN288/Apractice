@@ -15,5 +15,6 @@ public class cocoNutCount {
 
     public static void main(String[] args) {
         System.out.println(cocoNut(16, 2, 8));
+        System.out.println(cocoNut(16, 2, 10));
     }
 }

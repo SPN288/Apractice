@@ -4,7 +4,7 @@ public class lowrecaseCount {
         String ans="";
         int count=0;
         for (int i = 0; i < s.length(); i++) {
-            if((int)s.charAt(i)>=97&& (int)s.charAt(i)<=122){
+            if(s.charAt(i)>='a'&& s.charAt(i)<='z'){
                 ans+=s.charAt(i);
                 count++;
             }

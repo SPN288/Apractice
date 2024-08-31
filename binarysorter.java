@@ -27,7 +27,8 @@ public class binarysorter {
     public static void main(String[] args) {
         System.out.println(hot("11101010111110101111110000001101"));
         System.out.println(hot("1101111001101"));
-        System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));
+        System.out.println(hot("1101111001101"));
+        System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));System.out.println(hot("1101111001101"));
     }
     
 }

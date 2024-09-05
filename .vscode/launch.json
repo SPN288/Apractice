@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "javaopp",
+            "request": "launch",
+            "mainClass": "oop.javaopp",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
+            "name": "anagramStrings",
+            "request": "launch",
+            "mainClass": "anagramStrings",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "snakewaterGun",
             "request": "launch",
             "mainClass": "snakewaterGun",

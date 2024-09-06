@@ -8,8 +8,14 @@ public class javaopp {
         this.Name=Name;
         this.roll=roll;
     }
-
-    public void print(){
+    //function overloading or Polymorphism
+    public void print(int roll,String name){
+        System.out.println("Name="+this.Name+"\nRoll="+this.roll);
+    }
+    public void print(String name){
+        System.out.println("Name="+this.Name+"\nRoll="+this.roll);
+    }
+    public void print(int roll){
         System.out.println("Name="+this.Name+"\nRoll="+this.roll);
     }
     };

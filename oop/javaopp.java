@@ -13,17 +13,19 @@ public class javaopp {
         System.out.println("Name="+this.Name+"\nRoll="+this.roll);
     }
     public void print(String name){
-        System.out.println("Name="+this.Name+"\nRoll="+this.roll);
+        System.out.println("Name="+this.Name);
     }
     public void print(int roll){
-        System.out.println("Name="+this.Name+"\nRoll="+this.roll);
+        System.out.println("Roll="+this.roll);
     }
     };
     
     public static void main(String[] args) {
         
         KIIT bacche=new KIIT(2128000, "Satya");
-        bacche.print();
+        bacche.print(2128000,"satya");
+        bacche.print("satya");
+        bacche.print(2128000);
 
     }
 }

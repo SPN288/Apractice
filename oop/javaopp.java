@@ -7,10 +7,7 @@ public class javaopp {
         int roll;
         String Name;
 
-        KIIT(int roll, String Name) {
-            this.Name = Name;
-            this.roll = roll;
-        }
+        
         //function overloading or Polymorphism
 
         public void print(int roll, String name) {
@@ -25,10 +22,12 @@ public class javaopp {
             System.out.println("Roll=" + this.roll);
         }
     };
+    //Inheritance
     static class Student extends KIIT{
+        String branch;
 
-        public Student() {
-            super(0, null);
+        void print(){
+            System.out.println("Name="+Name+"\nRoll="+roll+"\nBranch="+branch);
         }
         
 
@@ -36,14 +35,16 @@ public class javaopp {
 
     public static void main(String[] args) {
 
-        KIIT bacche = new KIIT(2128000, "Satya");
+        KIIT bacche = new KIIT();
+        bacche.Name="Sam";bacche.roll=1;
         bacche.print(2128000, "satya");
         bacche.print("satya");
         bacche.print(2128000);
         Student s1=new Student();
         s1.Name="jack";
         s1.roll=9089;
-        s1.print(33, "jk");
+        s1.branch="CSE";
+        s1.print();
 
     }
 }

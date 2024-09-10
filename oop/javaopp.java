@@ -32,6 +32,12 @@ public class javaopp {
         
 
     };
+    static class Group extends Student{
+        int section;
+        void print(){
+            System.out.println("Name="+Name+"\nRoll="+roll+"\nBranch="+branch+"\nSection="+section);
+        }
+    };
 
     public static void main(String[] args) {
 
@@ -45,6 +51,13 @@ public class javaopp {
         s1.roll=9089;
         s1.branch="CSE";
         s1.print();
+
+        Group g1=new Group();
+        g1.Name="sak";
+        g1.branch="CSE";
+        g1.roll=46;
+        g1.section=1;
+        g1.print();
 
     }
 }

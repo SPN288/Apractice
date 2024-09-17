@@ -9,7 +9,9 @@ public class automobile {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter total no. of vehicles");
         int V=sc.nextInt();
+        System.out.println("Enter total no. of wheels");
         int W=sc.nextInt();
         countVehicle(V, W);
     }

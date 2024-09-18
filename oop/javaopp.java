@@ -1,5 +1,7 @@
 package oop;
 
+import java.util.HashMap;
+
 public class javaopp {
 
     static class KIIT {
@@ -58,6 +60,12 @@ public class javaopp {
         g1.roll=46;
         g1.section=1;
         g1.print();
+
+        HashMap<String,Integer> hm=new HashMap<>();
+        hm.put("satya",52 );
+
+
+
 
     }
 }

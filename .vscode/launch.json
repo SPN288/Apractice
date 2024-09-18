@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "automobile",
+            "request": "launch",
+            "mainClass": "automobile",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
+            "name": "lol",
+            "request": "launch",
+            "mainClass": "lol",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "binarysorter",
             "request": "launch",
             "mainClass": "binarysorter",

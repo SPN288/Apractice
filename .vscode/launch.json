@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countString",
+            "request": "launch",
+            "mainClass": "countString",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "automobile",
             "request": "launch",
             "mainClass": "automobile",

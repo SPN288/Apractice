@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removecharacters",
+            "request": "launch",
+            "mainClass": "removecharacters",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "renoveSpaces",
             "request": "launch",
             "mainClass": "renoveSpaces",

@@ -1,5 +1,5 @@
 public class renoveSpaces {
-    static String vovremover(String s){
+    static String spaces(String s){
         StringBuilder sb=new  StringBuilder();
         
         for (int i = 0; i < s.length(); i++) {
@@ -11,6 +11,6 @@ public class renoveSpaces {
         return sb.toString();
     }
     public static void main(String[] args) {
-        System.out.println(vovremover("Satya Prakash"));
+        System.out.println(spaces("Satya Prakash"));
     }
 }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeBrackets",
+            "request": "launch",
+            "mainClass": "removeBrackets",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "removecharacters",
             "request": "launch",
             "mainClass": "removecharacters",

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "anagram",
+            "request": "launch",
+            "mainClass": "anagram",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "calculateFrequency",
             "request": "launch",
             "mainClass": "calculateFrequency",

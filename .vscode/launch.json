@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringPrinter",
+            "request": "launch",
+            "mainClass": "stringPrinter",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "anagram",
             "request": "launch",
             "mainClass": "anagram",

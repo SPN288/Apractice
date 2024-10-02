@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarrayEqualToTarget",
+            "request": "launch",
+            "mainClass": "mass.subarrayEqualToTarget",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
+            "name": "hash",
+            "request": "launch",
+            "mainClass": "hash",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "stringPrinter",
             "request": "launch",
             "mainClass": "stringPrinter",

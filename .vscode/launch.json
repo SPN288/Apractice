@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "digitcheck",
+            "request": "launch",
+            "mainClass": "digitcheck",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
+            "name": "averageBalance",
+            "request": "launch",
+            "mainClass": "averageBalance",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "subarrayEqualToTarget",
             "request": "launch",
             "mainClass": "mass.subarrayEqualToTarget",

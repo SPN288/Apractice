@@ -1,4 +1,3 @@
-import java.util.*;
 public class stringhash {
 
 
@@ -18,8 +17,7 @@ public class stringhash {
 	}
 
     public static void main(String[] args){
-	Scanner sc=new Scanner(System.in);
-	String s= sc.nextLine();
+	
 	System.out.println(sep("S#a#t#y#a"));
     }
 }

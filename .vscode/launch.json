@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringhash",
+            "request": "launch",
+            "mainClass": "stringhash",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "digitcheck",
             "request": "launch",
             "mainClass": "digitcheck",

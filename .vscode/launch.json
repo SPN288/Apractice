@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringReducer",
+            "request": "launch",
+            "mainClass": "stringReducer",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "stringhash",
             "request": "launch",
             "mainClass": "stringhash",

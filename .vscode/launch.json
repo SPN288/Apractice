@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countAccurance",
+            "request": "launch",
+            "mainClass": "countAccurance",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "stringReducer",
             "request": "launch",
             "mainClass": "stringReducer",

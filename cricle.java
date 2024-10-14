@@ -21,7 +21,7 @@ public class cricle {
     public static void main(String[] args) {
         String word="bza";
         System.out.println(minTimeToType(word));
-        //System.out.println(mindist('a', 'a'));
+        System.out.println(mindist('a', 'a'));
         
 
     }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "matrix",
+            "request": "launch",
+            "mainClass": "oop.matrix",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "cricle",
             "request": "launch",
             "mainClass": "cricle",

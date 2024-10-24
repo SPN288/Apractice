@@ -4,62 +4,74 @@ import java.util.HashMap;
 
 public class matrix {
 
-    static boolean validSuduko(char arr[][]) {
+    static boolean matvalid(char board[][],int i,int j){
+        HashMap<Character, Character> hm = new HashMap<>();
+        for (int I = i; I < i+3; I++) {
+            for (int J = j; J < j+3; J++) {
+                
+                if (board[I][J] != '.' && hm.containsKey(board[I][J])) {
+                                return false;
+                            } else {
+                                hm.put(board[I][J], board[I][J]);
+                            }
+            }
+           
+        }
+        return true;
+    }
+
+    static boolean validSuduko(char board[][]) {
 
         HashMap<Character, Character> hm = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                if (arr[i][j] != ' ' && hm.containsKey(arr[i][j])) {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] != '.' && hm.containsKey(board[i][j])) {
                     return false;
                 } else {
-                    hm.put(arr[i][j], arr[i][j]);
+                    hm.put(board[i][j], board[i][j]);
                 }
             }
             hm.clear();
         }
-        for (int j = 0; j < arr.length; j++) {
-            for (int i = 0; i < arr[0].length; i++) {
-                if (arr[i][j] != ' ' && hm.containsKey(arr[i][j])) {
+
+        for (int j = 0; j < 9; j++) {
+            for (int i = 0; i < 9; i++) {
+                if (board[i][j] != '.' && hm.containsKey(board[i][j])) {
                     return false;
                 } else {
-                    hm.put(arr[i][j], arr[i][j]);
+                    hm.put(board[i][j], board[i][j]);
                 }
             }
             hm.clear();
         }
-        for (int j = 0; j < arr.length; j++) {
 
-            if (arr[j][j] != ' ' && hm.containsKey(arr[j][j])) {
-                return false;
-            } else {
-                hm.put(arr[j][j], arr[j][j]);
+        
+        for (int i = 0; i < 9; i=i+3) {
+            for (int j = 0; j < 9; j=j+3) {
+                if(matvalid(board, i, j)){
+                
+                }else{return false;}
             }
-
-        }
-        hm.clear();
-        for (int j = 0; j < arr.length; j++) {
-
-            if (arr[j][arr.length-j-1] != ' ' && hm.containsKey(arr[j][arr.length-j-1])) {
-                return false;
-            } else {
-                hm.put(arr[j][arr.length-j-1], arr[j][arr.length-j-1]);
-            }
-
-        }
-
+        } 
         return true;
     }
 
     public static void main(String[] args) {
-        char[][] arr = {{'1', '2', '3'},
-        {'4', '5', '6'},
-        {'7', '8', '9'}};
-        System.out.println(validSuduko(arr));
-
-        for (int j = 0; j < arr.length; j++) {
-
-            System.out.println(arr[j][arr.length-j-1]);
-        }
+        char[][] board = 
+        {
+        {'1', '2', '3','1', '2', '3','1', '2', '3'},
+        {'4', '5', '6','4', '5', '6','4', '5', '6'},
+        {'7', '8', '9','7', '8', '9','7', '8', '9'},
+        {'1', '2', '3','1', '2', '3','1', '2', '3'},
+        {'4', '5', '6','4', '5', '6','4', '5', '6'},
+        {'7', '8', '9','7', '8', '9','7', '8', '9'},
+        {'1', '2', '3','1', '2', '3','1', '2', '3'},
+        {'4', '5', '6','4', '5', '6','4', '5', '6'},
+        {'7', '8', '9','7', '8', '9','7', '8', '9'}
+        };
+        System.out.println(validSuduko(board));
+        //System.out.println(matvalid(board, 0, 3));
+        
 
     }
 }

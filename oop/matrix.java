@@ -69,7 +69,7 @@ public class matrix {
             ,{'.','.','.','4','1','9','.','.','5'}
             ,{'.','.','.','.','8','.','.','7','9'}
         };
-        System.out.println(validSuduko(board));
+        System.out.println(validSuduko(board));//false
         char[][] board2 = 
         {
              {'5','3','.','.','7','.','.','.','.'}
@@ -82,7 +82,7 @@ public class matrix {
             ,{'.','.','.','4','1','9','.','.','5'}
             ,{'.','.','.','.','8','.','.','7','9'}
         };
-        System.out.println(validSuduko(board2));
+        System.out.println(validSuduko(board2));//true
         
 
     }

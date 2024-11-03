@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArratLis",
+            "request": "launch",
+            "mainClass": "ArratLis",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "matrix",
             "request": "launch",
             "mainClass": "oop.matrix",

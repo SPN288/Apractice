@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeduplicates",
+            "request": "launch",
+            "mainClass": "nqt.removeduplicates",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "ArratLis",
             "request": "launch",
             "mainClass": "ArratLis",

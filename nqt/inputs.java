@@ -19,7 +19,7 @@ public class inputs {
 
     public static void main(String[] args) {
         
-        System.out.println(isSubset("google","loo"));
+        
 
     }
 }

@@ -35,17 +35,7 @@ public class inputs {
             
             sks[i]=Integer.parseInt(sk[i]);
         }
-        String h="satya";
-        String k="str";
         
-
-        //print(sks);
-        System.out.println(h.contains(k));
-
-
-        char a='a';
-        int b=(int)a;
-        System.out.println(b-97);
 
     }
 }

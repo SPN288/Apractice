@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddingElementinanArray",
+            "request": "launch",
+            "mainClass": "nqt.AddingElementinanArray",
+            "projectName": "APractice_f5f04643"
+        },
+        {
+            "type": "java",
             "name": "removeduplicates",
             "request": "launch",
             "mainClass": "nqt.removeduplicates",
